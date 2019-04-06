@@ -38,6 +38,15 @@ body {
     color: #4aaaa5;
   }
   
+  .linkedin{
+    text-align: center;
+  }
+
+  .icons li {
+    display: inline-block;
+    margin: 0.5em 1em;
+  }
+
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
@@ -162,10 +171,17 @@ body {
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
-    color: #ffffff;
+    color: black;
     text-align: center;
-    background: #4aaaa5;
+    background: rgba(255, 255, 255, 0.7);
     border-bottom: 0;
+  }
+
+  .train h3 {
+    color: red;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+  
   }
   
   .auth-image {
